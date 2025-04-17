@@ -26,15 +26,15 @@ const greeting = {
     "Full Stack Developer with a strong foundation in Data Structures, Algorithms, and Competitive Programming."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1TeIx9KczfblM2Fvfku5ocYCXaLCixsRT/view?usp=drivesdk", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/uc?export=download&id=1TeIx9KczfblM2Fvfku5ocYCXaLCixsRT", // Forces direct download
+  displayGreeting: true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
   github: "https://github.com/anika253",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/anika-sharma-549555257/",
   gmail: "anikasharma253@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
@@ -116,23 +116,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
+      schoolName: "NIT HAMIRPUR",
+      //logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Electronics and Communication engineering",
+      duration: "November 2022 - present || CGPA : 7.27"
+
+      //desc: "Participated in the research of XXX and published 3 papers.",
+      /*descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      ]*/
     }
   ]
 };
@@ -166,12 +159,12 @@ const workExperiences = {
     {
       role: "Web developer Intern",
       company: "Cantilever",
-      // companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      companylogo: require("./assets/images/cantilever logo.jpeg"),
+      date: "Aug '25 to Sep'25", // as per your resume
+      desc: "Developed and maintained dynamic web applications using the MERN stack (MongoDB, Express.js, React, Node.js), enhancing user experience and optimizing performance.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Implemented REST APIs with Express.js and Node.js, ensuring seamless integration between the front-end and back-end, and contributing to scalable, efficient web solutions.",
+        "Contributed to the design and development of user‑friendly interfaces, ensuring responsive design and cross‑browser compatibility using React and CSS frameworks."
       ]
     }
   ]
@@ -182,7 +175,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -192,7 +185,7 @@ const bigProjects = {
   subtitle: "SOME OF MY COLLABORATIVE WEB DEV PROJECTS",
   projects: [
     {
-      //image: require("./assets/images/aajivikaQ.webp"), // Add this image in assets/images folder
+      image: require("./assets/images/aajivika.avif"), // Add this image in assets/images folder
       projectName: "Aajivika",
       projectDesc:
         "Led the development of a React + Firebase-based web platform to empower unorganized sector workers, resulting in a 40% increase in platform users and 30% employment match success.",
@@ -204,19 +197,19 @@ const bigProjects = {
       ]
     },
     {
-      //image: require("./assets/images/cryptoMarket.webp"), // Replace/add image accordingly
+      image: require("./assets/images/crypto market.jpeg"), // Replace/add image accordingly
       projectName: "Crypto Market Index",
       projectDesc:
         "Built a React + Redux dashboard for real-time cryptocurrency updates using CoinGecko API. Implemented dynamic market visualization and user-friendly UI.",
       footerLink: [
         {
-          name: "View GitHub"
-          // url: "https://github.com/anika253/crypto-market-index" // Placeholder; update if exists
+          name: "View GitHub",
+          url: "https://github.com/anika253/crypto-market-index" // Placeholder; update if exists
         }
       ]
     },
     {
-      //image: require("./assets/images/convocationPortal.webp"), // Add this image too
+      image: require("./assets/images/convPortal.jpeg"), // Add this image too
       projectName: "Convocation Portal",
       projectDesc:
         "Developed a full-stack MERN application for convocation registration, admin control, and certificate generation. Implemented secure login, admin dashboard, and MongoDB integration.",
@@ -224,6 +217,19 @@ const bigProjects = {
         {
           name: "View GitHub",
           url: "https://github.com/anika253/convocationPortal123"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/defi.jpeg"), // Add this image too
+      projectName: "AI-powered-DeFi-Advisor ",
+      projectDesc:
+        "DeFi Robo-Adviser is an AI-driven decentralized finance (DeFi) trading assistant that automates investment strategies, executes secure trades, and mitigates risks using cutting-edge technologies",
+      footerLink: [
+        {
+          name: "View GitHub",
+          url: "https://github.com/anika253/AI-powered-DeFi-Advisor "
         }
       ]
     }
@@ -352,9 +358,10 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  // ← add your link here:
+  resumeLink:
+    "https://drive.google.com/uc?export=download&id=1TeIx9KczfblM2Fvfku5ocYCXaLCixsRT",
+  display: true
 };
 
 const contactInfo = {
