@@ -3,6 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
+
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
@@ -26,7 +27,7 @@ const greeting = {
     "Full Stack Developer with a strong foundation in Data Structures, Algorithms, and Competitive Programming."
   ),
   resumeLink:
-    "https://drive.google.com/uc?export=download&id=1TeIx9KczfblM2Fvfku5ocYCXaLCixsRT", // Forces direct download
+    "https://drive.google.com/file/d/1TeIx9KczfblM2Fvfku5ocYCXaLCixsRT/view?usp=sharing", // Forces direct download
   displayGreeting: true
 };
 
@@ -49,7 +50,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -363,6 +364,32 @@ const resumeSection = {
     "https://drive.google.com/uc?export=download&id=1TeIx9KczfblM2Fvfku5ocYCXaLCixsRT",
   display: true
 };
+// … your existing socialMediaLinks above …
+
+// Coding Profiles Section
+const codingProfiles = {
+  // set false to hide this section
+  heading: "💻 Coding Profiles",
+  subHeading: "Where I solve problems and grow my skills",
+  profiles: [
+    {
+      platform: "LeetCode",
+      url: "https://leetcode.com/22bec020",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+    },
+    {
+      platform: "GeeksforGeeks",
+      url: "https://auth.geeksforgeeks.org/user/22becevps",
+      icon: require("./assets/images/gfg.jpeg")
+    },
+    {
+      platform: "Codolio",
+      url: "https://codolio.com/profile/RuLapgQq",
+      icon: require("./assets/images/codolio.jpeg") // put your Codolio icon in assets/images
+    }
+  ],
+  display: true
+};
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -388,6 +415,7 @@ export {
   techStack,
   workExperiences,
   openSource,
+  codingProfiles,
   bigProjects,
   achievementSection,
   blogSection,

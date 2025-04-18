@@ -67,6 +67,15 @@
 .instagram i {
   background-color: $instagram;
 }
+.icon-button.leetcode {
+  background-color: #f89f1b; // or any color you like
+  color: white;
+}
+
+.icon-button.codolio {
+  background-color: #444;
+  color: white;
+}
 
 /* Hover Transition */
 .twitter i:hover,

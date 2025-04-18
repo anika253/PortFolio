@@ -19,6 +19,8 @@ import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
+import CodingProfiles from "./codingProfiles/CodingProfiles";
+import {codingProfiles} from "../portfolio"; // Add this line
 import "./Main.scss";
 
 const Main = () => {
@@ -58,11 +60,7 @@ const Main = () => {
             <WorkExperience />
             <Projects />
             <StartupProject />
-            <Achievement />
-            <Blogs />
-            <Talks />
-            <Twitter />
-            <Podcast />
+            <CodingProfiles codingProfiles={codingProfiles} />
             <Profile />
             <Footer />
             <ScrollToTopButton />
