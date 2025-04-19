@@ -1,5 +1,4 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
-
+# Software Developer Folio ⚡️ 
 ## A clean, beautiful and responsive portfolio template for Developers!
 
 
@@ -14,7 +13,7 @@ Just change `src/portfolio.js` to get your personal portfolio. Customize portfol
 
 If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
-Created something awesome for your fork of the portfolio and want to share it? Feel free to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
+
 
 ## Table of Contents
 - [Sections](#sections)
@@ -34,14 +33,7 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Skills\
 ✔️ Education\
 ✔️ Work Experience\
-✔️ Open Source Projects Connected with GitHub\
-✔️ Big Projects\
-✔️ Achievements And Certifications 🏆\
-✔️ Blogs\
-✔️ Talks\
-✔️ Podcast\
-✔️ Contact me\
-✔️ Twitter Timeline\
+✔️ Big Projects and Coding Profiles\
 ✔️ GitHub Profile
 
 To view a live example, **[click here](https://developerfolio.js.org/)**.
@@ -235,9 +227,6 @@ This section guides you to deploy your portfolio on GitHub pages.
 
 #### Deploying to Netlify
 
-You could also host directly with Netlify by linking your own repository.
-
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
 
 For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
@@ -252,27 +241,5 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 - [react-headroom](https://github.com/KyleAMathews/react-headroom)
 - [color-thief](https://github.com/lokesh/color-thief)
 
-## Illustrations
-- [UnDraw](https://undraw.co/illustrations)
-- [Lottie by Oblikweare](https://lottiefiles.com/oblikweare)
 
-
-## For the Future
-If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
-
-- Connect with LinkedIn to get Summary, Skills, Education and Experience
-
-- Move to Gatsby
-
-- Add More Sections
-
-## Project Maintainers 
-
-<table>
-  <tr>
-    <td align="center"><a href="http://saadpasta.github.io"><img src="https://avatars2.githubusercontent.com/u/23307811?v=4" width="100px;" alt=""/><br /><sub><b>Saad Pasta</b></sub></a></td>
-    <td align="center"><a href="https://github.com/kartikcho"><img src="https://avatars1.githubusercontent.com/u/48270786?v=4" width="100px;" alt=""/><br /><sub><b>Kartik Choudhary</b></sub></a></td>
-    <td align="center"><a href="https://github.com/naveen521kk"><img src="https://avatars1.githubusercontent.com/u/49693820?v=4" width="100px;" alt=""/><br /><sub><b>Naveen M K</b></sub></a></td>
-    <td align="center"><a href="http://www.muhammadhasham.com"><img src="https://avatars0.githubusercontent.com/u/17927649?v=4" width="100px;" alt=""/><br /><sub><b>Muhammad Hasham</b></sub></a></td>
-  </tr>
-</table>
+-
