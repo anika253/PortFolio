@@ -26,8 +26,9 @@ const greeting = {
   subTitle: emoji(
     "Full Stack Developer with a strong foundation in Data Structures, Algorithms, and Competitive Programming."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1TeIx9KczfblM2Fvfku5ocYCXaLCixsRT/view?usp=sharing", // Forces direct download
+  resumeLink: `https://docs.google.com/viewer?url=${encodeURIComponent(
+    "https://drive.google.com/uc?id=1TeIx9KczfblM2Fvfku5ocYCXaLCixsRT"
+  )}`, // Forces direct download
   displayGreeting: true
 };
 
@@ -360,8 +361,9 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
   // ← add your link here:
-  resumeLink:
-    "https://drive.google.com/uc?export=download&id=1TeIx9KczfblM2Fvfku5ocYCXaLCixsRT",
+  resumeLink: `https://docs.google.com/viewer?url=${encodeURIComponent(
+    "https://drive.google.com/uc?id=1TeIx9KczfblM2Fvfku5ocYCXaLCixsRT"
+  )}`,
   display: true
 };
 // … your existing socialMediaLinks above …

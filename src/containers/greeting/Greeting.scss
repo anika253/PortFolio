@@ -37,6 +37,7 @@
 .button-greeting-div {
   display: flex;
   margin-top: 40px;
+  text-decoration: none;
 }
 .download-link-button {
   text-decoration: none;
@@ -166,4 +167,7 @@
     width: 200px;
     height: 200px;
   }
+}
+.resume-link {
+  text-decoration: none;
 }
